@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 100%;
+    height: 70px;
+    background-color: #16213E;
+    z-index: 500;
+}
+
+ul li {
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-texto {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.nav-texto:hover {
+    color: red;
+    transition: 1s;
+}

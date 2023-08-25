@@ -1,0 +1,25 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#rodape {
+    background-color: #16213E;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
